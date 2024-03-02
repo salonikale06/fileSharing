@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+img{
+    width: 30%;
+}
+.wrapper{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-weight: 400;
+    font-size: 40px;
+    color: #445A6F;
+    margin: 40px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #445A6F;
+    border-radius: 5px;
+    border: 1px solid 445A6F;
+    color: white;
+    margin: 30px 0;
+
+}
